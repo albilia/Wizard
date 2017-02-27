@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.AlbiliaWizard" name="Albilia Wizard" version="1.0.0" provider-name="AlbiliaWiz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" version="2.4.3" />
+  </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+	<extension point="xbmc.service" library="update.py" start="[login|startup]"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR orange]Albilia Wizard[/COLOR]</summary>
+    <description lang="en">Easy Install With KODI. All in one-click installation ,Skin ,Addons ,movies and mor. The Skin is Eminence 2</description>
+    <description lang="he">התקנת קודי בקלות. מותאם לרוץ על כל הפלטפורמות הקיימות. הוויזארד נבנה בעיקר לתת מענה לבעלי סטרימרים שלא יכלו להתקין וויזארדים אחרים. ומכיל בתוכו הרחבות חשובות וממשק אמיננסה מעוצב של אבקסיס.  
+
+נוצר ע"י:
+[COLOR orange][B]ניסים אלביליה [/B][/COLOR]
+    </description>
+    <disclaimer lang="en">Visit albilia.co.il for more info.</disclaimer>
+    <disclaimer lang="he">בילדים וכלי תחזוקה נוספים יתווספו לוויזארד בהמשך..</disclaimer>
+    <source>http://albilia.co.il</source>
+    <website>http://albilia.co.il</website>
+    <platform>all</platform>
+ 		<assets>
+ 			<icon>resources/icon.png</icon>
+ 			<fanart>resources/fanart.jpg</fanart>
+ 			<screenshot>resources/screenshot-01.jpg</screenshot>
+ 			<screenshot>resources/screenshot-02.jpg</screenshot>
+ 			<screenshot>resources/screenshot-03.jpg</screenshot>
+ 			<screenshot>resources/screenshot-04.jpg</screenshot>
+ 			<screenshot>resources/screenshot-05.jpg</screenshot>
+ 			<screenshot>resources/screenshot-06.jpg</screenshot>
+ 			<screenshot>resources/screenshot-07.jpg</screenshot>
+ 			<screenshot>resources/screenshot-08.jpg</screenshot>
+ 			<screenshot>resources/screenshot-09.jpg</screenshot>
+ 			<screenshot>resources/screenshot-10.jpg</screenshot>
+ 		</assets>
+  <news>[B]1.0.0[/B][CR]• Eminence Wizard for kodi 17 [CR]</news> 		 
+  </extension>
+</addon>
